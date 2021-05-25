@@ -25,7 +25,7 @@ export abstract class HelperBase {
   // Specific implementation of the transformation
   abstract transform(input: string | undefined): string;
 
-  private async processInput(): Promise<string | undefined> {
+  private processInput(): Promise<string | undefined> {
     return new Promise((resolve, reject) => {
       // Inject arguments to commander
       this.program.parse(process.argv);
