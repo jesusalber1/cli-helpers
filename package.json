@@ -4,7 +4,8 @@
   "description": "CLI helper functions",
   "preferGlobal": true,
   "bin": {
-    "lower": "dist/bin/lower.js"
+    "lower": "dist/bin/lower.js",
+    "upper": "dist/bin/upper.js"
   },
   "scripts": {
     "build": "npx tsc",
