@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2019",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDirs": ["bin", "src"],
+    "outDir": "dist"
+  }
+}

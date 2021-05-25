@@ -1,0 +1,26 @@
+{
+  "name": "@jesusalber1/cli-helpers",
+  "version": "0.0.1",
+  "description": "CLI helper functions",
+  "preferGlobal": true,
+  "bin": {},
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jesús Alberto Polo García <japologarcia@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesusalber1/cli-helpers.git"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}
