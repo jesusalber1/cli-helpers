@@ -4,6 +4,7 @@
   "description": "CLI helper functions",
   "preferGlobal": true,
   "bin": {
+    "capitalize": "dist/bin/capitalize.js",
     "lower": "dist/bin/lower.js",
     "upper": "dist/bin/upper.js"
   },
